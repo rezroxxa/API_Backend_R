@@ -9,7 +9,7 @@ def chat():
     user_message = request.json.get("message", "")
     
     if user_message.strip().lower() == "hi":
-        response = "Hello"
+        response = "Hello, Resty Dagsan"
     else:
         response = "I don't understand."
 
