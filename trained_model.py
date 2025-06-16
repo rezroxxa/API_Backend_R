@@ -54,3 +54,5 @@ pipeline.fit(X_train, y_train)
 joblib.dump(pipeline, 'trained_data/student_pass_model.pkl')
 
 print("✅ Model training complete. Saved to 'trained_data/student_pass_model.pkl'")
+
+#I KNOW THE END
